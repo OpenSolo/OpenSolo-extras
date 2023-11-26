@@ -1,0 +1,10 @@
+# vss device definition
+# Singel display 
+
+# master display
+[master]
+type = framebuffer
+format = RGBP
+fb_num = 1
+main_fb_num = 0
+

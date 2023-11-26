@@ -1,0 +1,23 @@
+# vss device definition
+# Triple display: Master=LVDS, Slave1=HDMI, Slave2=LVDS
+# please add "video=mxcfb0:dev=ldb,LDB-XGA,if=RGB666 video=mxcfb1:dev=hdmi,1920x1080M@60,if=RGB24"
+# to kernel startup command line
+
+# master display lvds
+[LVDS]
+type = framebuffer
+format = RGBP
+fb_num = 1
+main_fb_num = 0
+
+#slave display HDMI
+[HDMI]
+type = framebuffer
+format = RGBP
+fb_num = 2
+
+#third display lvds
+[LVDS2]
+type = framebuffer
+format = RGBP
+fb_num = 4

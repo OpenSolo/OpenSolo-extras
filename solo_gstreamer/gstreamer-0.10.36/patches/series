@@ -1,0 +1,3 @@
+check_fix.patch -p1
+gst-inspect-check-error.patch -p1
+0001-baseparse-Fix-self-comparison-always-evaluates-to-tr.patch -p1

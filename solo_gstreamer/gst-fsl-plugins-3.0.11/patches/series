@@ -1,0 +1,3 @@
+build-Fix-out-of-tree-build.patch -p1
+Remove-use-of-obsolete-VIDIOC_DBG_G_CHIP_IDENT.patch -p1
+yuv422.patch -p1

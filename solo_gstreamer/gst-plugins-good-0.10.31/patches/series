@@ -1,0 +1,3 @@
+0001-v4l2-fix-build-with-recent-kernels-the-v4l2_buffer-i.patch -p1
+0001-v4l2_calls-define-V4L2_CID_HCENTER-and-V4L2_CID_VCEN.patch -p1
+0407-mulawdec-fix-integer-overrun.patch -p1

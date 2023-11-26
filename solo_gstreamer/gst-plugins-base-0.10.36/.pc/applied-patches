@@ -1,0 +1,4 @@
+gst-plugins-base-tremor.patch
+configure.ac-fix-subparse-plugin.patch
+audioresample-Fix-build-on-x86-if-emmintrin.h-is-ava.patch
+gstplaybin2-rawvideo-support.patch
