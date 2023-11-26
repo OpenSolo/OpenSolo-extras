@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
+
 
 """
 Utility for generating a C-style header file containing a binary

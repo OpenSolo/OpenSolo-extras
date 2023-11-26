@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
+
 
 """
 Utility for reading the software version from a 3DR Gimbal.

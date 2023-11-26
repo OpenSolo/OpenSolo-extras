@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 """
 Utility for building a release firmware bundle
@@ -28,13 +28,14 @@ if args.release != None:
 	desc['release']	 = str(args.release)
 
 # Get the current git info
-cmd = " ".join(["git", "describe", "--tags", "--dirty"])
+cmd = " ".join(["git", "describe", "--tags"])
 p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE).stdout
 desc['git_identity'] = str(p.read().strip())
+
 p.close()
 
 # Version is extracted from the git identity
-desc['version'] = str(desc['git_identity'].split('-')[0][2:])
+desc['version'] = str(desc['git_identity'].split('-')[0][2:-1])
 
 # Build time is the current time
 desc['build_time'] = int(time.time())
@@ -44,6 +45,8 @@ with open(args.image, "rb") as f:
 	data = f.read()
 	desc['image_size'] = len(data)
 	desc['image'] = base64.b64encode(zlib.compress(data, 9)).decode('utf-8')
+
+print(desc)
 
 # Write the output
 outputfile = os.path.join(args.outdir, "%s%s.%s" % (firmware_prefix, desc['version'], firmware_extension))
