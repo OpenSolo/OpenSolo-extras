@@ -1,0 +1,12 @@
+build/
+.tags*
+.DS_Store
+*.d
+*.eep
+*.hex
+*.o
+*.elf
+.project
+.cproject
+*.atsuo
+*.componentinfo.xml

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icons/48x48">
+        <file>Images/Green_Tick_48x48.png</file>
+        <file>Images/Red_X_48x48.png</file>
+    </qresource>
+    <qresource prefix="/icons/16x16">
+        <file>Images/Green_Tick_16x16.png</file>
+        <file>Images/Rex_X_16x16.png</file>
+    </qresource>
+    <qresource prefix="/icons/32x32">
+        <file>Images/Green_Tick_32x32.png</file>
+        <file>Images/Red_X_32x32.png</file>
+        <file>Images/Ellipsis_32x32.png</file>
+    </qresource>
+    <qresource prefix="/icons/24x24">
+        <file>Images/Green_Tick_24x24.png</file>
+        <file>Images/Red_X_24x24.png</file>
+    </qresource>
+</RCC>

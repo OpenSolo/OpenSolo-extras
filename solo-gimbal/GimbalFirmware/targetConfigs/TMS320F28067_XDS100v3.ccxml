@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="Texas Instruments XDS100v3 USB Debug Probe_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS100v3 USB Debug Probe_0" href="connections/TIXDS100v3_Dot7_Connection.xml" id="Texas Instruments XDS100v3 USB Debug Probe_0" xml="TIXDS100v3_Dot7_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" desc="Texas Instruments XDS100v3 USB Debug Probe" id="Texas Instruments XDS100v3 USB Debug Probe_0">
+            <instance XML_version="1.2" href="drivers/tixds100v2c28x.xml" id="drivers" xml="tixds100v2c28x.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="1" id="The Converter Usage">
+                <choice Name="Generate 1149.7 4-pin standard mode" value="enable">
+                    <property Type="choicelist" Value="1" id="The Emulator 1149.1 Frequency">
+                        <choice Name="Adaptive with user specified limit" value="adaptive">
+                            <property Type="stringfield" Value="30.0MHz" id="-- Enter a value from 488Hz to 30.0MHz"/>
+                        </choice>
+                    </property>
+                </choice>
+            </property>
+            <property Type="choicelist" Value="0" id="Emulator Selection"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="TMS320F28067_0" href="devices/f28067.xml" id="TMS320F28067_0" xml="f28067.xml" xmlpath="devices"/>
+            <device HW_revision="1" XML_version="1.2" desc="TMS320F28067" description="" id="TMS320F28067_0" partnum="TMS320F28067"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>

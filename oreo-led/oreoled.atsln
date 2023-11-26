@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "oreoled", "oreoled.cproj", "{7CB58748-CA83-4B92-9A78-13A526C8193E}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "oreoled-bootloader", "bootloader\oreoled-bootloader.cproj", "{8C0E0A4A-85BE-4B5D-9609-DE4BD45293FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB58748-CA83-4B92-9A78-13A526C8193E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7CB58748-CA83-4B92-9A78-13A526C8193E}.Debug|AVR.Build.0 = Debug|AVR
+		{7CB58748-CA83-4B92-9A78-13A526C8193E}.Release|AVR.ActiveCfg = Release|AVR
+		{7CB58748-CA83-4B92-9A78-13A526C8193E}.Release|AVR.Build.0 = Release|AVR
+		{8C0E0A4A-85BE-4B5D-9609-DE4BD45293FC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8C0E0A4A-85BE-4B5D-9609-DE4BD45293FC}.Debug|AVR.Build.0 = Debug|AVR
+		{8C0E0A4A-85BE-4B5D-9609-DE4BD45293FC}.Release|AVR.ActiveCfg = Release|AVR
+		{8C0E0A4A-85BE-4B5D-9609-DE4BD45293FC}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
