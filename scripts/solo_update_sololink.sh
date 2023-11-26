@@ -1,0 +1,1 @@
+../sololink/tools/updater/updateSoloAndArtoo.sh

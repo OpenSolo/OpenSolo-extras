@@ -1,0 +1,15 @@
+module load gimbal
+module load graph
+module load gopro
+
+@alias add g graph
+
+@alias add ggimbaltilt graph MOUNT_STATUS.pointing_a/100.0 MOUNT_STATUS.pointing_b/100.0 
+@alias add ggimbalyaw graph MOUNT_STATUS.pointing_c/100.0 180*AHRS2.yaw/3.141592
+
+@alias add ggimbaljoint graph GIMBAL_REPORT.joint_roll GIMBAL_REPORT.joint_el GIMBAL_REPORT.joint_az
+@alias add ggimbalangle graph GIMBAL_REPORT.delta_angle_x GIMBAL_REPORT.delta_angle_y GIMBAL_REPORT.delta_angle_z
+@alias add ggimbalvel   graph GIMBAL_REPORT.delta_velocity_x GIMBAL_REPORT.delta_velocity_y GIMBAL_REPORT.delta_velocity_z
+
+@alias add gkill param set MNT_K_RATE 0
+@alias add glive param set MNT_K_RATE 15

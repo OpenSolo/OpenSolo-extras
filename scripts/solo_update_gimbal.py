@@ -1,0 +1,1 @@
+../solo-gimbal/Tools/src/setup.py
