@@ -1,5 +1,7 @@
-# Solo Gimbal - AES
+# Solo Gimbal 
 gimbal software for C2000 uC
+
+# Old Instructions below, not checked in any way, sorry.
 
 ## Development
 Download and install the following softwares:

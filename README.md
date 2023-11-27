@@ -14,7 +14,7 @@ See:
  solo-gimbal/controlSUITE/libs/math/IQmath/v15c/include/IQmathLib.h
 ...and other places that reference 'iqmathlib' or similar.
 
-We believe that we are in compliance with TIs copyright, as their code is only executed on TI hardware.
+We believe that we are in compliance with TI's copyright, as their code is only executed on TI hardware.
 
 ------------------------------------------
 
@@ -26,8 +26,8 @@ The 'oreo-led' code did not come with any apparent LICENSE info, and as such is 
 
 ------------------------------------------
 To Build the gimbal firmware [ on linux ]:
-TIP : ensure you have a 'python2' in your path as a few of the scripts use it 
 
+TIP : ensure you have a 'python2' in your path as a few of the scripts use it 
 
 One time only: 
  * run CCS11.1.0.00011_web_linux-x64$ ./ccs_setup_11.1.0.00011.run
@@ -70,6 +70,6 @@ Open the CCS GUI you now have installed [it may have created a desktop shortcut]
   ls ../../gimbal_firmware_v1.ax
 
 
-* No, we have not tried flashing this to an actual gimbl yet, this README will be updated when this has happened.
+* No, we have not tried flashing this to an actual gimbal yet, this README will be updated when this has happened.
 
   
