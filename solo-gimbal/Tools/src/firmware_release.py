@@ -35,7 +35,11 @@ desc['git_identity'] = str(p.read().strip())
 p.close()
 
 # Version is extracted from the git identity
-desc['version'] = str(desc['git_identity'].split('-')[0][2:-1])
+desc['version'] = str(desc['git_identity'].split('-')[0][2:])
+
+if desc['version'] == "'":
+	desc['version'] = "unknown"
+	print("missing git tag, unable to version")
 
 # Build time is the current time
 desc['build_time'] = int(time.time())
