@@ -1,0 +1,10 @@
+#define GitVersionString "0-0-0"
+#define GitBranch "0"
+#define GitTag "0"
+#define GitCommit "0"
+#define GitVersionMajor "0"
+#define GitVersionMinor "0"
+#define GitVersionRevision "0"
+#define GitVersionMajorInt 0
+#define GitVersionMinorInt 0
+#define GitVersionRevisionInt 0

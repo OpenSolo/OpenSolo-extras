@@ -221,7 +221,8 @@ OTHER_FILES += \
 #from git commit data
 versionTarget.target = version.h
 versionTarget.depends = FORCE
-win32:versionTarget.commands = "C:\Program Files (x86)\Git\bin\sh.exe" --login -c "$$PWD/tools/get_version.sh"
-unix:versionTarget.commands = "./$$PWD/tools/getversion.sh"
+win32:versionTarget.commands = "C:\Program Files (x86)\Git\bin\sh.exe" --login -c "$$PWD/Tools/get_version.sh"
+#unix:versionTarget.commands = "./$$PWD/Tools/getversion.sh"
+unix:versionTarget.commands = true
 PRE_TARGETDEPS += version.h
 QMAKE_EXTRA_TARGETS += versionTarget
