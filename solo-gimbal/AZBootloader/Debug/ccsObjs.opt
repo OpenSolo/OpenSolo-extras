@@ -1,0 +1,1 @@
+"./ITRAPIsr.obj" "./Init_Boot.obj" "./Shared_Boot.obj" "./Vectors_Boot.obj" "./main.obj" "./F2806x_headers/source/F2806x_GlobalVariableDefs.obj" "../28067_lnk.cmd" "/home/buzz/OpenSoloProject/OpenSolo-extras/solo-gimbal/controlSUITE/libs/utilities/flash_api/2806x/v100/lib/2806x_BootROM_API_TABLE_Symbols_fpu32.lib" -llibc.a 

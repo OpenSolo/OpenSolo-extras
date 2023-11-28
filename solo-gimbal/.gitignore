@@ -1,6 +1,6 @@
-F2806x_RAM/
+
 FLASH/
-Debug/
+
 *.graphProp
 *.ini_initial
 *.prefs
