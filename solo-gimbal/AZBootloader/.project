@@ -28,7 +28,7 @@
 		<link>
 			<name>2806x_BootROM_API_TABLE_Symbols_fpu32.lib</name>
 			<type>1</type>
-			<location>C:/ti/controlSUITE/libs/utilities/flash_api/2806x/v100/lib/2806x_BootROM_API_TABLE_Symbols_fpu32.lib</location>
+			<location>/home/buzz/OpenSoloProject/OpenSolo-extras/solo-gimbal/controlSUITE/libs/utilities/flash_api/2806x/v100/lib/2806x_BootROM_API_TABLE_Symbols_fpu32.lib</location>
 		</link>
 	</linkedResources>
 </projectDescription>
