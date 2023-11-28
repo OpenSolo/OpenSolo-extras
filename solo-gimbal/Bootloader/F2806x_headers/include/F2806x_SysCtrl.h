@@ -1,6 +1,6 @@
 //###########################################################################
 //
-// FILE:   F2806x_Sysctrl.h
+// FILE:   F2806x_SysCtrl.h
 //
 // TITLE:  F2806x Device SYSCTRL Register Definitions.
 //
